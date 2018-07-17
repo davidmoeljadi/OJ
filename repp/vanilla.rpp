@@ -1,0 +1,14 @@
+;;;
+;;; Basic repp file, partially customized according
+;;; to your choices file.
+;;;
+;;; 
+:[ \t!"#$%&'()\*\+,\./;<>?@\[\]\^_`{|}~\\]
+!^(.+)$								 \1 
+!\t								 
+!  +								 
+
+! tA								 ta a
+! ta ya sumur.							 sumur.
+! (ta|pwa|sira|ya) 						 
+! ([a-zA-Z²]+)(nira)[;,\.?!\]})]? 				 \1 -nira 

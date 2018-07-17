@@ -1,0 +1,167 @@
+
+version=32
+
+section=general
+language=Old Javanese
+archive=no
+vcs=git
+
+section=word-order
+word-order=v-initial
+has-dets=yes
+noun-det-order=det-noun
+has-aux=yes
+aux-comp-order=before
+aux-comp=v
+
+section=number
+
+section=person
+person=1-2-3
+first-person=none
+
+section=gender
+
+section=case
+case-marking=none
+
+section=adnom-poss
+  poss-strat1_order=head-initial
+  poss-strat1_mod-spec=spec
+  poss-strat1_mark-loc=possessum
+  poss-strat1_possessum-type=affix
+  poss-strat1_possessum-affix-agr=non-agree
+
+section=direct-inverse
+scale-equal=direct
+
+section=tense-aspect-mood
+  mood1_name=realis
+    mood1_supertype1_name=mood
+  mood2_name=irrealis
+    mood2_supertype1_name=mood
+
+section=evidentials
+evidential-definition=noevid
+
+section=other-features
+form-fin-nf=on
+
+section=sentential-negation
+neg-exp=1
+neg-aux=on
+neg-aux-index=1
+comp-neg-order=before
+comp-neg-orth=tan
+
+section=coordination
+
+section=matrix-yes-no
+
+section=info-str
+
+section=arg-opt
+
+section=nominalclause
+
+section=clausal-comp
+
+section=clausalmods
+
+section=lexicon
+  noun1_name=common
+    noun1_feat1_name=person
+    noun1_feat1_value=3rd
+  noun1_det=opt
+    noun1_stem1_orth=ratu
+    noun1_stem1_pred=_ratu_n_rel
+    noun1_stem2_orth=sumur
+    noun1_stem2_pred=_sumur_n_rel
+    noun1_stem3_orth=anak
+    noun1_stem3_pred=_anak_n_rel
+    noun1_stem4_orth=gunung
+    noun1_stem4_pred=_gunung_n_rel
+    noun1_stem5_orth=rare
+    noun1_stem5_pred=_rare_n_rel
+    noun1_stem6_orth=Zabda
+    noun1_stem6_pred=_Zabda_n_rel
+    noun1_stem7_orth=patapan
+    noun1_stem7_pred=_patapan_n_rel
+    noun1_stem8_orth=upAya
+    noun1_stem8_pred=_upAya_n_rel
+  noun2_name=pronoun
+  noun2_pron=on
+  noun2_det=imp
+  noun3_name=first-pron
+  noun3_supertypes=noun2
+  noun3_pron=on
+    noun3_feat1_name=person
+    noun3_feat1_value=1st
+  noun3_det=imp
+    noun3_stem1_orth=kami
+    noun3_stem1_pred=_kami_n_rel
+    noun3_stem2_orth=mami
+    noun3_stem2_pred=_mami_n_rel
+  noun4_name=second-pron
+  noun4_supertypes=noun2
+  noun4_pron=on
+    noun4_feat1_name=person
+    noun4_feat1_value=2nd
+  noun4_det=imp
+    noun4_stem1_orth=kita
+    noun4_stem1_pred=_kita_n_rel
+    noun4_stem2_orth=kamu
+    noun4_stem2_pred=_kamu_n_rel
+  noun5_name=third-pron
+  noun5_supertypes=noun2
+  noun5_pron=on
+    noun5_feat1_name=person
+    noun5_feat1_value=3rd
+  noun5_det=imp
+    noun5_stem1_orth=ya
+    noun5_stem1_pred=_ya_n_rel
+    noun5_stem2_orth=sira
+    noun5_stem2_pred=_sira_n_rel
+  verb1_name=intr
+  verb1_valence=intrans
+    verb1_stem1_orth=lunghA
+    verb1_stem1_pred=_lunghA_v_rel
+    verb1_stem2_orth=DatEng
+    verb1_stem2_pred=_DatEng_v_rel
+    verb1_stem3_orth=hana
+    verb1_stem3_pred=_hana_v_rel
+  verb2_name=tr
+  verb2_valence=trans
+    verb2_stem1_orth=rEngO
+    verb2_stem1_pred=_rEngO_v_rel
+    verb2_stem2_orth=panggih
+    verb2_stem2_pred=_panggih_v_rel
+    verb2_stem3_orth=pet
+    verb2_stem3_pred=_pet_v_rel
+  aux1_name=neg
+  aux1_sem=add-pred
+  aux1_subj=np
+    aux1_compfeature1_name=form
+    aux1_compfeature1_value=finite
+    aux1_stem1_orth=tan
+    aux1_stem1_pred=neg_rel
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+  sentence1_orth=lunghA ta sira.
+  sentence2_orth=DatEng pwa sira.
+  sentence3_orth=hana sira ratu.
+  sentence4_orth=hana ta ya sumur.
+  sentence5_orth=DatEng tAnaknira.
+  sentence6_orth=hana ta gunung.
+  sentence7_orth=rare sira.
+  sentence8_orth=angrEngO pwa sira Zabda.
+  sentence9_orth=amanggih ta ya patapan.
+  sentence10_orth=amet ta sira upAya.
+
+section=gen-options
+
+section=ToolboxLexicon

@@ -1,0 +1,96 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+ratu := common-noun-lex &
+  [ STEM < "ratu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ratu_n_rel" ].
+
+sumur := common-noun-lex &
+  [ STEM < "sumur" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sumur_n_rel" ].
+
+anak := common-noun-lex &
+  [ STEM < "anak" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_anak_n_rel" ].
+
+gunung := common-noun-lex &
+  [ STEM < "gunung" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_gunung_n_rel" ].
+
+rare := common-noun-lex &
+  [ STEM < "rare" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_rare_n_rel" ].
+
+Zabda := common-noun-lex &
+  [ STEM < "Zabda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_Zabda_n_rel" ].
+
+patapan := common-noun-lex &
+  [ STEM < "patapan" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_patapan_n_rel" ].
+
+upAya := common-noun-lex &
+  [ STEM < "upAya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_upAya_n_rel" ].
+
+kami := first-pron-noun-lex &
+  [ STEM < "kami" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kami_n_rel" ].
+
+mami := first-pron-noun-lex &
+  [ STEM < "mami" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mami_n_rel" ].
+
+kita := second-pron-noun-lex &
+  [ STEM < "kita" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kita_n_rel" ].
+
+kamu := second-pron-noun-lex &
+  [ STEM < "kamu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kamu_n_rel" ].
+
+ya := third-pron-noun-lex &
+  [ STEM < "ya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ya_n_rel" ].
+
+sira := third-pron-noun-lex &
+  [ STEM < "sira" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sira_n_rel" ].
+
+nira := third-pron-noun-lex &
+  [ STEM < "-nira" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nira_n_rel" ].
+
+;;; Adjectives
+
+;;; Verbs
+
+lunghA := intr-verb-lex &
+  [ STEM < "lunghA" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lunghA_v_rel" ].
+
+DatEng := intr-verb-lex &
+  [ STEM < "DatEng" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_DatEng_v_rel" ].
+
+hana := intr-verb-lex &
+  [ STEM < "hana" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hana_v_rel" ].
+
+rEngO := tr-verb-lex &
+  [ STEM < "rEngO" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_rEngO_v_rel" ].
+
+panggih := tr-verb-lex &
+  [ STEM < "panggih" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_panggih_v_rel" ].
+
+pet := tr-verb-lex &
+  [ STEM < "pet" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pet_v_rel" ].
+
+;;; Auxiliaries
+
+tan := neg-aux-lex &
+  [ STEM < "tan" >,
+    SYNSEM.LKEYS.KEYREL.PRED "neg_rel" ].

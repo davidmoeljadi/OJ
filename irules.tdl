@@ -1,0 +1,15 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+
+;;;active voice
+; <type val="act-prefix">
+; <description>Active voice with |maN-| prefix
+; <ex>menunggu
+; <nex>
+; <todo>
+; </type>
+act-prefix :=
+%prefix (p am) (w am) (r angr) (m am) (n an) (ng ang) (k ang) (s an) (t an) (c any) (a anga) (i angi) (u angu) (e ange) (o ango) (d angd) (g angg) (h angh) (j angj) (l angl) (y angy) (b amb)
+act-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ OPT -,
+                                   LOCAL.CAT.HEAD noun ] > ].
+
