@@ -364,6 +364,9 @@ zero-cop-rule := unary-phrase &
 
 act-lex-rule := active-voice-lex-rule-super.
 
-active-voice-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & transitive-verb-lex &
+transitive-realis-verb-lex := transitive-verb-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD realis ].
+
+active-voice-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & transitive-realis-verb-lex &
   [ INFLECTED.VOICE-FLAG +,
     DTR tr-verb-lex ].
